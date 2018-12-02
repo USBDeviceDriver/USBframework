@@ -1,0 +1,28 @@
+PIN configuration of the project
+********************** USB *********************
+
+# pin on blue board
+
+  P1-10 = USB_DP
+  P1-11 = USB_DM
+
+
+# pin on LPC 1768
+
+  P0.29(29) = USB_d+
+  P0.30(30) = USB_d-
+
+
+  ******************** Uart (GSM) *********************
+
+
+  # pin on blue board
+
+    P3-1 = TXD1
+    P3-2 = RXD1
+
+
+  # pin on LPC 1768
+
+    P0.0(46) = Rx
+    P0.1(47) = Tx
